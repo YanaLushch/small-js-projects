@@ -1,0 +1,39 @@
+body{
+    background-color: ivory;
+}
+.container{
+    position: relative;
+    top: 30%;
+    width: 70%;
+    height: 60%;
+    font-family: 'Cabin', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+}
+button{
+    border: 2px black solid;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: ivory;
+    color: black;
+    box-shadow: rgb(0 0 0) 0px 1px 4px 0px;
+}
+.title{
+    font-size: 50px;
+    margin: 0;
+}
+.number{
+    font-size: 100px;
+    margin: 0 0 10px 0;
+}
+.hover_over{
+    background-color: black;
+    color: white;
+}
